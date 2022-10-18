@@ -1,5 +1,26 @@
 # How to set up VM's with Vagrant, VirtualBox and Ruby
 
+////
+
+# Virtualisation
+
+## Dev Env
+
+### Vagrant
+
+- Check internet connectivity `sudo apt-get update`
+- Run upgrade `sudo apt-get upgrade -y`
+- Where am I? `pwd` gives you your current location
+- Who am I? `uname` or `uname -a` or `whoami`
+- How to create a file in Linux `touch filename` or `nano filename`
+- How to check files/folders available in current location `ls` or to check for hidden files `ls -a`
+- How to create a folder `mkdir folder_name`
+-  How to navigate to the folder ` cd folder_name`
+- How to navigate back out `cd ..` or `cd` Enter
+- How to delete a file/folder `rm -rf file/folder_name`
+- How to copy file from location to another ``
+
+
 # Vagrant commands cheatsheet
 
 Usage: vagrant [options] <command> [<args>]
@@ -51,5 +72,5 @@ or not commonly used. To see all subcommands, run the command
         --debug-timestamp            Enable debug output with timestamps
         --no-tty                     Enable non-interactive output# Steps for VM creation 
 
-# vagrant commands cheatsheet
+
 
