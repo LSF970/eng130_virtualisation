@@ -18,7 +18,43 @@
 -  How to navigate to the folder ` cd folder_name`
 - How to navigate back out `cd ..` or `cd` Enter
 - How to delete a file/folder `rm -rf file/folder_name`
-- How to copy file from location to another ``
+- How to copy file from location to another `cp test_file.txt test_folder/`
+- How to navigate between OS and VM `exit` Enter
+- For admin access `sudo`, switch to admin user `sudo su`, use `exit` to go back to normal user
+- Show the permissions of the files/folders in the directory `ls -l`, Show hidden too `ll`
+- Change permissions `chmod instruction file_name` i.e. `chmod 700 test.txt` can use letters as well as numbers for permissions. I prefer numbers
+- Current running processes `top` (task mananger in Linux basically) & `ps aux`
+- Ctrl + C to cancel out of it and return to shell
+- To remove any process `kill PID` PID = processid - e.g. kill 7
+- To delete folder/hidden folder `ls -a`
+
+# TASKS
+- Print last 3 lines from text.txt: `tail -3 text.txt`
+- Print first 3 lines from text.txt: `head -3 text.txt`
+- Print last 10 lines from text.txt: `tail -10 text.txt`
+
+
+- `grep` used to print speccific lines where a string is found and highlight said string in that line - e.g. grep "the" text.txt
+- `|` This is called "Piping", which is the process of redirecting the output of one command to the input of another command. Very useful and common in Linux/Unix-like systems. e.g. `cat /etc/profile | grep bash`
+- `sort` SORT command sorts the contents of a text file, line by line. e.g. `sort text.txt`
+- `ps aux` shortlist by name. This allows you to kill a program using it's name rather than finding it's PID. e.g. `ps aux | grep -i firefox`
+- How to create/run a process in the background & foreground, create/run a process in both areas `bg` for background, `fg` for foreground
+- Use ` sudo pkill process_name` to kill background processes by name
+
+# Install `nginx` in the VM
+
+- Install `nginx` in VM (`sudo apt-get install nginx-y`)
+- Create a `private-network` between localhost and vm
+- Allocate an IP address
+- How to check a tool/software status in Linux `sudo systemctl status nginx`
+- How to restart a process in Linux `sudo systemctl restart nginx`
+ 
+
+
+
+
+
+
 
 
 # Vagrant commands cheatsheet
