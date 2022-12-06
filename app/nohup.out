@@ -1,0 +1,54 @@
+Your app is ready and listening on port 3000
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/vagrant/app/app/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/vagrant/app/app/app.js:44:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/vagrant/app/app/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/vagrant/app/app/app.js:44:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
+module.js:478
+    throw err;
+    ^
+
+Error: Cannot find module '/home/vagrant/app/app.js'
+    at Function.Module._resolveFilename (module.js:476:15)
+    at Function.Module._load (module.js:424:25)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:160:9)
+    at bootstrap_node.js:507:3
